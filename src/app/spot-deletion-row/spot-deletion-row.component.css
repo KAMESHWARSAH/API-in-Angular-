@@ -1,0 +1,15 @@
+.main-container {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+  
+  .btn-report {
+    margin-bottom: 1rem;
+    background-color: purple;
+    color: white;
+  }
+  

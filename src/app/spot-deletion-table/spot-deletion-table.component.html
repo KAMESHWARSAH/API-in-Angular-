@@ -1,0 +1,24 @@
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Spot ID</th>
+      <th>Spot Name</th>
+      <th>Police Station</th>
+      <th>Beat</th>
+      <th>Spot Type</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let spot of spots">
+      <td><img [src]="spot.imageUrl" alt="Spot Image" /></td>
+      <td>{{ spot.id }}</td>
+      <td>{{ spot.name }}</td>
+      <td>{{ spot.policeStation }}</td>
+      <td>{{ spot.beat }}</td>
+      <td>{{ spot.type }}</td>
+      <td>{{ spot.date | date: 'yyyy-MM-dd' }}</td>
+    </tr>
+  </tbody>
+</table>

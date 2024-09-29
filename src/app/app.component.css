@@ -1,0 +1,13 @@
+.main-content {
+    display: flex;
+  }
+  
+  app-sidebar {
+    flex: 1;
+  }
+  
+  app-spot-deletion-table {
+    flex: 4;
+    padding: 20px;
+  }
+  
